@@ -8,7 +8,7 @@
 
     // configuration
 
-    mongoose.connect('mongodb://todouser@localhost:27017/todo');
+    mongoose.connect('mongodb://VxbjkNOWyyPR:UVMccayxKhpC@mongosoup-cont002.mongosoup.de:32419/cc_VxbjkNOWyyPR');
 
     app.use(express.static(__dirname + '/public'));                
     app.use(morgan('dev'));                                         // log every request to the console
