@@ -1,8 +1,11 @@
 Test task for Ruby/Rails course
+Demo: https://pacific-sands-3453.herokuapp.com/
+
 
 Task manager
 I'm a person who passionate about own productivity. I want to manage my tasks and projects
 more effectively. I need simple tool that support me in controlling my task­flow.
+
 
 Functional requirements
 ● I want to be able to create/update/delete projects
@@ -12,6 +15,7 @@ Functional requirements
 ● I want to be able to choose deadline for my task
 ● I want to be able to mark a task as 'done'
 
+
 Technical requirements
 ● It should be WEB application
 	○ For the client side must be used: HTML, CSS (any libs as Twitter Bootstrap,
@@ -19,6 +23,7 @@ Technical requirements
 	○ For server side any language as Ruby, PHP, Python, JavaScript, C#, Java ...
 ● It should have client side and server side validation.
 ● It should look like on screens (see attached file ‘test_task_view.png’).
+
 
 Additional functionality
 ● It should work like one page WEB application and should use AJAX technology, load
