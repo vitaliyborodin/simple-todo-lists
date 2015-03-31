@@ -1,0 +1,336 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background: url('img/background.png');
+	background-attachment: fixed;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;
+}
+
+.header div{
+	margin: auto;
+	width: 300px;
+	top: 70px;
+	position: relative;
+	text-align: center;
+	font-color: #FFFFFF;
+	font-size: 16px;
+}
+
+.header div b{
+	font-size: 25px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+
+.lists {
+	margin: auto;
+	width: 615px;
+}
+
+.list {
+	min-height: 100px;
+	margin: 20px 0 20px 0;
+}
+
+.title {
+	width: 615px;
+	height: 45px;
+	background: url('img/cloth.png');
+}
+
+.title div.icon{
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+	background: url('img/calendar.png');
+}
+
+.title input{
+	width: 450px;
+	margin: 13px 13px 13px 0px;
+	font-size: 16px;
+	border: none;
+	background: none;
+}
+
+.title input:focus{
+	background: #FFFFFF;
+}
+
+.title div{
+	float: left;
+	margin: 13px 13px 13px 0px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.title div.btns{
+	float: right;
+	margin: 0;
+}
+
+.title div.btns .edit{
+	height: 18px;
+	width: 28px;
+	background: url('img/edit.png') no-repeat;
+	cursor: pointer;
+	border-right: 1px solid #5082bd;
+	margin-right: 0px;
+}
+
+.title div.btns .del{
+	height: 18px;
+	width: 18px;
+	background: url('img/del.png') no-repeat;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.add {
+	height: 45px;
+	background: url('img/metal.png');
+}
+
+.add div.icon {
+	float: left;
+	height: 24px;
+	width: 24px;
+	margin: 10px;
+	background: url('img/plus.png') no-repeat;
+}
+
+.add input {
+	width: 445px;
+	height: 19px;
+	margin: 9px 0px 9px 9px;
+	padding-left: 5px;
+	float: left;
+	border-top: 1px solid #a9a9a9;
+}
+
+.add div.btn {
+	height: 24px;
+	width: 95px;
+	background: url('img/task_btn.png');
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	margin: 9px 9px 9px 0px;
+	float: left;
+	cursor: pointer;
+}
+
+.add div.btn div {
+	margin: 3px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.list div.none {
+	height: 10px;
+	background: #f9f9f9;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+}
+
+.list div.none div.separator {
+	margin-left: 35px;
+}
+
+.task {
+	height: 45px;
+	background: #f9f9f9;
+	border-top: 2px solid #eff1f3;
+	/*cursor: pointer;*/
+}
+
+.task:hover {
+	background: #fcfed5;
+}
+
+.task input {
+	float: left;
+	margin: 11px;
+	cursor: pointer;
+}
+
+div.separator {
+	height: 100%;
+	float: left;
+	border-left: 1px solid #f1dfe3;
+	border-right: 1px solid #f1dfe3;
+}
+
+.task input.text {
+	width: 470px;
+	float: left;
+	margin: 11px;
+	color: #919191;
+	font-weight: bold;
+	border:none;
+	background: none;
+}
+
+.task input.text:focus {
+	background: #FFFFFF;
+}
+
+.task.done input.text{
+	text-decoration: line-through;
+}
+
+.task div.controls {
+	height: 30px;
+	padding-top: 15px;
+	border-left: 2px solid #eff1f3;
+	float: left;
+}
+
+.controls div.drag, .controls div.edit, .controls div.del{
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-left: 5px;
+}
+
+.controls div.drag {
+	background: url('img/drag-s.png') no-repeat;
+	border-right: 1px solid #999999;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.controls div.edit {
+	background: url('img/edit-s.png') no-repeat;
+	border-right: 1px solid #999999;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.controls div.del {
+	background: url('img/del-s.png') no-repeat;
+	cursor: pointer;
+}
+
+.none div.border {
+	height: 10px;
+	margin-left: 492px;
+	float: left;
+	border-left: 2px solid #eff1f3;
+}
+
+.new {
+	width: 185px;
+	height: 40px;
+	background: url('img/cloth.png');
+	margin: auto;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.new div.btn {
+	height: 24px;
+	width: 24px;
+	margin: 8px;
+	background: url('img/plus2.png') no-repeat;
+}
+
+.new div {
+	float: left;
+	margin: 11px 11px 11px 0px;
+	font-size:16px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -50px auto 0;
+	min-width: 1000px;
+	height: 50px;
+	position: relative;
+}
+
+.footer div{
+	margin: auto;
+	width: 100px;
+	text-align: center;
+	color: #FFFFFF;
+}
