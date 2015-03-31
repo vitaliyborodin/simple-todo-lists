@@ -120,10 +120,12 @@ body {
 	font-size: 16px;
 	border: none;
 	background: none;
+	color: #FFFFFF;
 }
 
 .title input:focus{
 	background: #FFFFFF;
+	color: #000000;
 }
 
 .title div{
