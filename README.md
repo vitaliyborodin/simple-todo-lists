@@ -18,7 +18,7 @@ more effectively. I need simple tool that support me in controlling my task­flo
 
 <b>Additional functionality</b><br />
 ● It should work like one page WEB application and should use AJAX technology, load
-	and submit data without reloading.<br />
+	and submit data without reloading<br />
 ● It should have user authentication solution and a user should only have access to their
 	own projects and tasks.	//TODO<br />
 ● It should have automated tests for all functionality.	//TODO<br />
