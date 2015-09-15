@@ -1,2 +1,4 @@
 node_modules/
 unnamed.png
+npm-debug.log
+*.*~
